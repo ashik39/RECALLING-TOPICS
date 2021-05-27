@@ -1,8 +1,20 @@
 //import { useState } from 'react/cjs/react.development';
 import './App.css';
 // import UseEffectMain from './UseEffect/UseEffectMain';
-
+// import PromiseMain from './Promise/PromiseMain';
+// import AsyncAwait from './Promise/AsyncAwait';
+import ReactQueryMain from './ReactQuery/ReactQueryMain';
 function App() {
+  //Below are for promise,async and await work examples
+  return (
+    <div className="App">
+      <div className="Content">
+        {/* <PromiseMain /> */}
+        {/* <AsyncAwait /> */}
+        <ReactQueryMain />
+      </div>
+    </div>
+  );
   //Below are useEffect example works
   // const [parentData, setParentData] = useState();
   // var parentData = 'PARENT DATA';
