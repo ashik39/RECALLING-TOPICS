@@ -10,7 +10,12 @@ function UseEffect(props) {
   const [onUpdate, setOnUpdate] = useState('');
   useEffect(() => {
     setEach('2 ) Each render :' + renderState);
-  });
+    console.log('resourse changed');
+
+    return () => {
+      console.log('return - Runs first to clear last render of useEffect');
+    };
+  }, [renderState]);
 
   useEffect(() => {
     setOnMount('1 ) *State Rendered Initially OnMount*');
