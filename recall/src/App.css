@@ -1,9 +1,21 @@
-.App {
-  text-align: center;
-}
+/* .App {
+} */
 .Content {
   margin-top: 100px;
 }
+
+.FormField {
+  width: 50%;
+  margin-left: 350px;
+  background-color: black;
+  color: white;
+  padding: 50px;
+  border-radius: 20px;
+}
+/* 
+.data {
+  float: right;
+} */
 
 .Btn {
   background-color: black;

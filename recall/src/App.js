@@ -3,7 +3,9 @@ import './App.css';
 // import UseEffectMain from './UseEffect/UseEffectMain';
 // import PromiseMain from './Promise/PromiseMain';
 // import AsyncAwait from './Promise/AsyncAwait';
-import ReactQueryMain from './ReactQuery/ReactQueryMain';
+//import ReactQueryMain from './ReactQuery/ReactQueryMain';
+import FormMain from './ReactHookForm/FormMain';
+//import UseMutation from './ReactQuery/UseMutation';
 function App() {
   //Below are for promise,async and await work examples
   return (
@@ -11,7 +13,9 @@ function App() {
       <div className="Content">
         {/* <PromiseMain /> */}
         {/* <AsyncAwait /> */}
-        <ReactQueryMain />
+        {/* <ReactQueryMain /> */}
+        <FormMain />
+        {/* <UseMutation /> */}
       </div>
     </div>
   );
