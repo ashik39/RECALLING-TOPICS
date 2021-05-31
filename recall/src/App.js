@@ -5,7 +5,9 @@ import './App.css';
 // import AsyncAwait from './Promise/AsyncAwait';
 //import ReactQueryMain from './ReactQuery/ReactQueryMain';
 //import FormMain from './ReactHookForm/FormMain';
-import App2 from './ReactQuery/UseMutation';
+// import UseMutation from './ReactQuery/UseMutation';
+import PromiseOne from './Promise/PromiseOne';
+import AsyncAwaitOne from './Promise/AsyncAwaitOne';
 function App() {
   //Below are for promise,async and await work examples
   return (
@@ -15,7 +17,10 @@ function App() {
         {/* <AsyncAwait /> */}
         {/* <ReactQueryMain /> */}
         {/* <FormMain /> */}
-        <App2 />
+        {/* <UseMutation /> */}
+        <PromiseOne />
+        {/* <h2>Same operation in async</h2>
+        <AsyncAwaitOne /> */}
       </div>
     </div>
   );
