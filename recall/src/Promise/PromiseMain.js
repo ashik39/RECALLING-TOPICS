@@ -5,7 +5,7 @@ function PromiseMain() {
     // Get the current 'global' time from an API using Promise
     return new Promise((resolve, reject) => {
       setTimeout(function () {
-        var didSucceed = Math.random() >= 0.5;
+        var didSucceed = Math.random() >= 0.1;
         didSucceed ? resolve(new Date()) : reject('Error');
       }, 2000);
     });

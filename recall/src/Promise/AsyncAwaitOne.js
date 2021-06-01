@@ -20,12 +20,16 @@ function PromiseOne() {
   };
 
   const doWOrk = async () => {
-    console.log('ASYNC AWAIT');
-    const res = await makeRequest('Google');
+    try {
+      console.log('ASYNC AWAIT');
+      const res = await makeRequest('Goog');
 
-    console.log('Response Recieved');
-    const processedRes = await processRequest(res);
-    console.log(processedRes);
+      console.log('Response Recieved');
+      const processedRes = await processRequest(res);
+      console.log(processedRes);
+    } catch (err) {
+      console.log(err);
+    }
   };
 
   doWOrk();

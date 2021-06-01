@@ -13,13 +13,13 @@ function PromiseOne() {
   };
 
   const processRequest = (response) => {
-    return new Promise((resolve, reject) => {
+    return new Promise((resolve) => {
       console.log('Processing response');
-      resolve('Extra information ' + response);
+      resolve('Extra information : ' + response);
     });
   };
 
-  makeRequest('Fb')
+  makeRequest('Google')
     .then((res) => {
       console.log('Response recieved');
       return processRequest(res);
@@ -33,7 +33,7 @@ function PromiseOne() {
   return (
     <div>
       <h1>Promise</h1>
-      <h2>Open Console</h2>
+      <h2>Open Console to see Output</h2>
     </div>
   );
 }
