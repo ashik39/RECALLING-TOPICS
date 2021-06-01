@@ -7,10 +7,11 @@ import './App.css';
 //import FormMain from './ReactHookForm/FormMain';
 // import UseMutation from './ReactQuery/UseMutation';
 // import PromiseOne from './Promise/PromiseOne';
-import AsyncAwaitOne from './Promise/AsyncAwaitOne';
+// import AsyncAwaitOne from './Promise/AsyncAwaitOne';
 // import PromiseMain from './Promise/PromiseMain';
 // import AsyncAwait from './Promise/AsyncAwait';
 // import PaginationMain from './Pagination/PaginationMain';
+import QueryPagination from './Pagination/QueryPagination';
 function App() {
   //Below are for promise,async and await work examples
   return (
@@ -23,8 +24,9 @@ function App() {
         {/* <FormMain /> */}
         {/* <UseMutation /> */}
         {/* <PromiseOne /> */}
-        <h2>Same operation in async</h2>
-        <AsyncAwaitOne />
+        {/* <h2>Same operation in async</h2>
+        <AsyncAwaitOne /> */}
+        <QueryPagination />
       </div>
     </div>
   );
