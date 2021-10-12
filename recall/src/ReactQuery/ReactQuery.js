@@ -1,10 +1,10 @@
 // react-query fetch with axios
 import React from 'react';
 import axios from 'axios';
-import { QueryClient, QueryClientProvider } from 'react-query';
-import { useQuery } from 'react-query';
+import { useQuery, QueryClient, QueryClientProvider } from 'react-query';
 
 const queryClient = new QueryClient();
+
 function ReactQuery() {
   const { isLoading, error, data } = useQuery('fetchLuke', () =>
     axios('http://swapi.dev/api/people/1/')
